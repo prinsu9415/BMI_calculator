@@ -1,0 +1,44 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    
+   height: 90vh;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    
+}
+#show{
+    color: #fff;
+    font-size: 20px;
+}
+.item{
+    box-shadow: inset;
+    border-radius: 5px;
+   border:2px green inset;
+    gap: 15px;
+   
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    background-color: rgb(99, 162, 141);
+}
+input{
+    padding: 10px 0px;
+    text-align: center;
+    border-radius: 5px;
+}
+button{
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
